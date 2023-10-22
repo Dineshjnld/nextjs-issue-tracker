@@ -7,6 +7,7 @@ import {usePathname} from 'next/navigation';
 import classnames from 'classnames';
 
 
+
 const NavBar = () => {
     const currentPath=usePathname();
 
@@ -14,7 +15,7 @@ const NavBar = () => {
         {
             label:'Dashboard',href:'/'},
 
-        {label:'Issues',href:'issues'},
+        {label:'Issues',href:'/issues'},
     ]
 
 return (
